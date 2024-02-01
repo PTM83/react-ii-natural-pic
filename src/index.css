@@ -51,16 +51,36 @@ a {
   color: white;
   text-align: left;
   text-shadow: 0px 0px 15px black;
+
+  position:relative;
 }
 
-.gallery .photo:hover {
+.gallery .photo:hover{
   box-shadow: 0px 0px 2px 1px black;
 }
 
-.gallery .photo svg {
-  align-self: flex-end;
+.photo-info {
+  position: absolute;
+  bottom: 10px; /* Or however much from the bottom you want */
+  left: 10px; /* Align to the left side */
+  color: white;
+  text-shadow: 0px 0px 15px black;
+}
+
+.photo-title {
+  margin: 0; /* Remove default margins */
+  font-size: 1rem; /* Adjust as needed */
+}
+
+.photographer {
+  margin: 0; /* Remove default margins */
+  font-size: 0.8rem; /* Adjust as needed */
 }
 
 .p-3 {
   padding: 30px;
+}
+
+.gallery .photo svg {
+  align-self: flex-end;
 }
