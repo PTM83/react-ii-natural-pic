@@ -1,2 +1,13 @@
-# react-ii-natural-pic
-Proyecto Desafio Latam con el uso del Context
+# React + Vite
+
+## Install
+
+```bash
+npm install
+```
+
+## Run
+
+```bash
+npm run dev
+```
